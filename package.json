@@ -4,7 +4,7 @@
   "description": "This repository is a simple web-crawler, made using node.js and it is a guided project",
   "main": "index.js",
   "scripts": {
-    "start" : "node main.js",
+    "start": "node main.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/amartyanil/simplewebcrawler/issues"
   },
-  "homepage": "https://github.com/amartyanil/simplewebcrawler#readme"
+  "homepage": "https://github.com/amartyanil/simplewebcrawler#readme",
+  "devDependencies": {
+    "jest": "^29.4.3"
+  }
 }
