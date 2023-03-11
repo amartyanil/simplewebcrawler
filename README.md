@@ -1,3 +1,3 @@
-# A Simple Web Crawler
+# A Simple Web Crawler (A Guided Project)
 
-This repository is a simple web-crawler, made using node.js and it is a guided project
+This repository is a simple web-crawler, made using node.js
