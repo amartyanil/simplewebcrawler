@@ -1,7 +1,10 @@
-function normalizeURL(urlToBeNormalized)
+import url from 'node:url';
+
+function normalizeURL(inputtedURL)
 {
-    urlToBeNormalized.hostname = urlToBeNormalized.hostname.toLower()
-    return urlToBeNormalized
+    urlobj = new URL(inputtedURL);
+    standardURL = `${urlobj.hostname}/${urlobj.pathname}`
+    return standardURL
 }
 
 module.exports = 
